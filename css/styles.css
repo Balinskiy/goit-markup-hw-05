@@ -962,7 +962,7 @@ a.footer-smm-link {
     color: currentColor;
 }
 
-.madal-blended-agreement {
+.modal-blended-agreement {
     margin-bottom: 24px;
 }
 
@@ -982,6 +982,7 @@ a.footer-smm-link {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .modal-form-checkbox:checked .modal-form-custom-checkbox {
