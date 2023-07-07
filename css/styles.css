@@ -796,8 +796,6 @@ a.footer-smm-link {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
 .modal-btn {
     display: flex;
     justify-content: center;
@@ -829,22 +827,6 @@ a.footer-smm-link {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* start */
 .modal-caption {
     display: block;
     width: 360px;
@@ -892,18 +874,6 @@ a.footer-smm-link {
     border-color: #4D5AE5;
 }
 
-.modal-form-icon.person {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    top: 50%;
-    transform: translateY(-50%);
-
-    fill: var(--dark-cl);
-    padding: 3px 0;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-form-icon {
     position: absolute;
     bottom: 8px;
@@ -914,10 +884,6 @@ a.footer-smm-link {
     fill: var(--dark-cl);
     padding: 0;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-input:focus+.modal-form-icon.person {
-    fill: var(--blue-cl);
 }
 
 .modal-form-input:focus+.modal-form-icon {
@@ -952,6 +918,8 @@ a.footer-smm-link {
     color: currentColor;
 }
 
+/* Modal Agreement styles */
+
 .modal-blended-agreement {
     margin-bottom: 24px;
 }
@@ -985,11 +953,6 @@ a.footer-smm-link {
 .modal-form-link {
     color: var(--blue-cl);
 }
-
-/* Finish */
-
-/* Modal Agreement styles */
-
 
 .modal-form-button {
     display: block;
